@@ -1,0 +1,24 @@
+Thrashing occurrs when your run out of RAM and memory outflows ino HDD
+Swapping moves infrequently accessed data to HDD
+I/o events - push, interrupt, poll regularly, poll brute force.
+4 language categories - assembly, high level, scripting, VM bytecode
+6 language types - imperative, procedural, logic based, functional, Object oriented, modern
+
+variables and function names use snake_case, class names use CamelCase
+'\' for escape character e.g \n
+conditionals - if for while continue break
+place empty init.py in all folders
+
+Python decorators
+Lambda to write new functional code e.g add_A-B = lambda a,b:a+b
+Exceptions - the art of failing gracefully - raise exception, try some code, except exception as error
+import modules, external or internal, fully or partially
+self executing modules e.g if name=main
+Async python - Event driven with sleep functions and handler funtion that manages event queue
+
+Abstract classes do not have some functions implemented, need child classes
+Class needs to by setup by def init(self)- so a class consists of constructor, variables and functions
+Super() to reach parent class functions
+private variables only accessed by class itself
+Setter Getter - watch a video and read up
+
