@@ -1,0 +1,19 @@
+{% block content %}
+    <h1>{% block title %} Roman Numeral Converter {% endblock %}</h1>
+    <form method="post">
+        <label for="title">Enter an Arabic number to convert it to a Roman numeral</label>
+        <br>
+        <input type="text" name="title"
+               placeholder="Integer"
+               value="{{ request.form['title'] }}"></input><br>
+        <br>
+
+        <label for="content">Enter a Roman numeral to convert it to Arabic number</label>
+        <br>
+        <textarea name="content"
+                  placeholder="String"
+                  >{{ request.form['content'] }}</textarea><br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+{% endblock %}
