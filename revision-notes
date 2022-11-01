@@ -21,4 +21,3 @@ Class needs to by setup by def init(self)- so a class consists of constructor, v
 Super() to reach parent class functions
 private variables only accessed by class itself
 Setter Getter - watch a video and read up
-
